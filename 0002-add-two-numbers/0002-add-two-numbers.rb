@@ -21,7 +21,7 @@ def add_two_numbers(l1, l2)
     # traverse both linked lists until both are empty.
   while l1 || l2
 
-    # Extract values from the current nodes or default to 0. Ternary        conditional expression: condition ? value_if_true : value_if_false
+    # Extract values from the current nodes or default to 0. Ternary conditional expression: condition ? value_if_true : value_if_false
     x = l1 ? l1.val : 0
     y = l2 ? l2.val : 0
 
